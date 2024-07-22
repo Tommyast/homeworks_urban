@@ -14,6 +14,6 @@ values_list = ['somesting', 5, False]
 values_dict = {'a': 1, 'b': 'строка', 'c': True}
 
 print_params(*values_list)
-print_params(*values_dict)
+print_params(**values_dict)
 values_list_2 = [3, 'string']
 print_params(*values_list_2, 42)
